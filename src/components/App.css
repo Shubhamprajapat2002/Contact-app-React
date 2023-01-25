@@ -1,0 +1,72 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.headingcenter{
+  margin-left: 35%;
+}
+
+.ui.list .list>.item>i.icon, .ui.list>.item>i.icon {
+  display: table-cell;
+  margin: 0;
+  padding-left: 1000px;
+  font-size: medium;
+  padding-right: 0.28571429em;
+  vertical-align: top;
+  -webkit-transition: color .1s ease;
+  transition: color .1s ease;
+}
+
+.ui.celled.list>.item:first-child, .ui.celled.list>.item:last-child {
+  /* padding-top: 5.214286em; */
+  padding-bottom: 0.21428571em;
+}
+
+.ui.button, .ui.buttons .button, .ui.buttons .or {
+  font-size: 1rem;
+  margin-left: 70%;
+}
+
+.bin:hover{
+  cursor: pointer;
+}
+
+.ui.list .list>.item>.image:only-child, .ui.list .list>.item>img.image, .ui.list>.item>.image:only-child, .ui.list>.item>img.image {
+  display: inline-block;
+  width: 7%;
+}
